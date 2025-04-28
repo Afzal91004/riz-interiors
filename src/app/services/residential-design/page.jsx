@@ -182,11 +182,11 @@ const ResidentialDesignPage = () => {
                 Comprehensive Residential Design
               </motion.h3>
               <motion.p variants={fadeIn} className="text-gray-700 mb-6">
-                Whether you're looking to renovate a single room or redesign
-                your entire home, our expert team provides end-to-end solutions
-                that transform your vision into reality. We handle everything
-                from conceptualization to execution, ensuring a seamless design
-                experience.
+                Whether you&apos;re looking to renovate a single room or
+                redesign your entire home, our expert team provides end-to-end
+                solutions that transform your vision into reality. We handle
+                everything from conceptualization to execution, ensuring a
+                seamless design experience.
               </motion.p>
               <motion.ul
                 variants={staggerChildren}
