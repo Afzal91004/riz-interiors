@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "example.com",
+        hostname: "riz-interiors.vercel.app/",
       },
       {
         protocol: "http",
@@ -25,8 +25,6 @@ const nextConfig = {
       },
     ],
   },
-
-  swcMinify: true,
 };
 
 export default nextConfig;
