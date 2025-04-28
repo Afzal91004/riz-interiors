@@ -1,7 +1,7 @@
 // src/app/page.jsx
 import Link from "next/link";
 import Image from "next/image";
-import { getCollections, getBlogs } from "@/lib/api";
+import { getCollections, getBlogs } from "../lib/api";
 import HeroSlideshow from "./components/HeroSlideshow";
 import InstagramFeed from "./components/InstagramFeed";
 

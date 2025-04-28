@@ -1,5 +1,5 @@
 // src/app/collections/page.jsx
-import { getCollections } from "@/lib/api";
+import { getCollections } from "../../lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import CollectionCard from "@/app/components/CollectionCard";

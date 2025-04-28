@@ -1,5 +1,8 @@
 // src/app/collections/[id]/page.jsx
-import { getCollections, getInteriorImagesByCollection } from "@/lib/api";
+import {
+  getCollections,
+  getInteriorImagesByCollection,
+} from "../../../lib/api";
 import ImageGrid from "@/app/components/ImageGrid";
 import ImageViewer from "./ImageViewer";
 import Image from "next/image";

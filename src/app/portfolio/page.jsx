@@ -1,5 +1,5 @@
 // src/app/portfolio/page.jsx
-import { getCollections } from "@/lib/api";
+import { getCollections } from "../../lib/api";
 import CollectionCard from "../components/CollectionCard";
 
 export const revalidate = 60; // Revalidate this page every 60 seconds

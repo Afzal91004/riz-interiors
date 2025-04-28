@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getBlogBySlug } from "@/lib/api";
+import { getBlogBySlug } from "../../../lib/api";
 import BlogShareButtons from "@/app/components/BlogShareButtons";
 
 export async function generateMetadata({ params }) {

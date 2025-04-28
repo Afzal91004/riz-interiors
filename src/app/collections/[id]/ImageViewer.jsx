@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import ImageGrid from "@/app/components/ImageGrid";
 import ImageModal from "@/app/components/ImageModal";
-import { getInteriorImagesByCollection } from "@/lib/api";
+import { getInteriorImagesByCollection } from "../../../lib/api";
 
 export default function ImageViewer({
   images: initialImages,

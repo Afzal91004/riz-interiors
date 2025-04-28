@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getBlogs } from "@/lib/api";
+import { getBlogs } from "../../lib/api";
 
 export const revalidate = 60; // Revalidate every 60 seconds
 

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { getInteriorImageById } from "@/lib/api";
+import { getInteriorImageById } from "../../lib/api";
 
 export default function ImageModal({ imageId, onClose }) {
   const [image, setImage] = useState(null);
