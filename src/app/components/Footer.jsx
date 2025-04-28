@@ -33,7 +33,7 @@ export default function Footer() {
 
             <div className="space-y-3 mb-6">
               <div className="flex items-center">
-                <MapPin size={16} className="text-[#050a30-700 mr-2" />
+                <MapPin size={16} className="text-[#050a30] mr-2" />
                 <span className="text-gray-600 text-sm">
                   <p className="mt-1">
                     88/31B, Stanley Rd, Juhi Colony,
@@ -47,19 +47,19 @@ export default function Footer() {
                 </span>
               </div>
               <div className="flex items-center">
-                <Phone size={16} className="text-[#050a30-700 mr-2" />
+                <Phone size={16} className="text-[#050a30] mr-2" />
                 <span className="text-gray-600 text-sm">
                   <a href="tel:+917860414973"> +91 78604 14973</a>
                 </span>
               </div>
               <div className="flex items-center">
-                <Mail size={16} className="text-[#050a30-700 mr-2" />
+                <Mail size={16} className="text-[#050a30] mr-2" />
                 <span className="text-gray-600 text-sm">
                   info@rizinteriors.com
                 </span>
               </div>
               <div className="flex items-center">
-                <Clock size={16} className="text-[#050a30-700 mr-2" />
+                <Clock size={16} className="text-[#050a30] mr-2" />
                 <span className="text-gray-600 text-sm">Mon-Sun: 9AM-6PM</span>
               </div>
             </div>
@@ -69,19 +69,19 @@ export default function Footer() {
                 href="#"
                 className="w-8 h-8 rounded-full bg-[#050a30-50 flex items-center justify-center hover:bg-[#050a30-100 transition-colors"
               >
-                <Instagram size={16} className="text-[#050a30-800" />
+                <Instagram size={16} className="text-[#050a30]" />
               </a>
               <a
                 href="#"
                 className="w-8 h-8 rounded-full bg-[#050a30-50 flex items-center justify-center hover:bg-[#050a30-100 transition-colors"
               >
-                <Facebook size={16} className="text-[#050a30-800" />
+                <Facebook size={16} className="text-[#050a30]" />
               </a>
               <a
                 href="#"
                 className="w-8 h-8 rounded-full bg-[#050a30-50 flex items-center justify-center hover:bg-[#050a30-100 transition-colors"
               >
-                <Twitter size={16} className="text-[#050a30-800" />
+                <Twitter size={16} className="text-[#050a30]" />
               </a>
             </div>
           </div>
@@ -152,19 +152,19 @@ export default function Footer() {
             <div className="flex space-x-4 mt-2 md:mt-0">
               <a
                 href="#"
-                className="text-gray-500 hover:text-[#050a30-700 text-xs"
+                className="text-gray-500 hover:text-[#050a30] text-xs"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-[#050a30-700 text-xs"
+                className="text-gray-500 hover:text-[#050a30] text-xs"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-[#050a30-700 text-xs"
+                className="text-gray-500 hover:text-[#050a30] text-xs"
               >
                 Sitemap
               </a>
