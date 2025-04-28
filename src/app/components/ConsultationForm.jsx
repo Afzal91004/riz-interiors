@@ -84,7 +84,7 @@ const ConsultationForm = () => {
           <strong className="font-bold">Success!</strong>
           <span className="block sm:inline">
             {" "}
-            Your consultation request has been submitted. We'll contact you
+            Your consultation request has been submitted. We&apos;ll contact you
             soon.
           </span>
         </div>

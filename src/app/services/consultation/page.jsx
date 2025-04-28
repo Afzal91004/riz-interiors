@@ -54,8 +54,8 @@ export default function Consultation() {
             </h2>
             <p className="text-lg text-gray-800 max-w-3xl mx-auto">
               Our design consultations are tailored to your unique needs,
-              whether you're planning a complete renovation or seeking advice on
-              specific areas of your space.
+              whether you&apos;re planning a complete renovation or seeking
+              advice on specific areas of your space.
             </p>
           </div>
 
@@ -397,8 +397,8 @@ export default function Consultation() {
                   Book Your Consultation
                 </h2>
                 <p className="text-gray-600 mb-8">
-                  Fill out the form below and we'll get back to you within 24
-                  hours to schedule your consultation.
+                  Fill out the form below and we&apos;ll get back to you within
+                  24 hours to schedule your consultation.
                 </p>
 
                 <ConsultationForm />

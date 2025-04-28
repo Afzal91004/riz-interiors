@@ -26,7 +26,7 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto">
-            Let's start a conversation about transforming your space into
+            Let&apos;s start a conversation about transforming your space into
             something extraordinary
           </p>
         </div>
@@ -46,11 +46,11 @@ export default function Contact() {
                 CONTACT US
               </span>
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-[#050a30] to-purple-900 bg-clip-text text-transparent">
-                Let's Connect
+                Let&apos;s Connect
               </h2>
               <p className="text-lg text-gray-800 mb-10">
-                We'd love to hear about your project. Get in touch with our team
-                to schedule a consultation or just to say hello.
+                We&apos;d love to hear about your project. Get in touch with our
+                team to schedule a consultation or just to say hello.
               </p>
 
               <div className="space-y-8 mb-10">
@@ -298,7 +298,7 @@ export default function Contact() {
           </h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">
             Book a call with our design experts to discuss your project in
-            detail. We're excited to bring your vision to life!
+            detail. We&apos;re excited to bring your vision to life!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

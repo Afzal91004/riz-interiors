@@ -174,8 +174,8 @@ export default function AboutUsPage() {
                 className="mb-6 text-gray-700 leading-relaxed"
               >
                 Riz Interiors is a premium interior design studio specializing
-                in creating elegant, functional spaces that reflect our clients'
-                unique personalities and lifestyles.
+                in creating elegant, functional spaces that reflect our
+                clients&apos; unique personalities and lifestyles.
               </motion.p>
 
               <motion.p
@@ -202,7 +202,7 @@ export default function AboutUsPage() {
                 Founded in 2010 by Farhan Ahmad, our studio has grown from a
                 small consultancy into a full-service design firm with projects
                 spanning across luxury residences, boutique hospitality,
-                corporate offices, and retail spaces. We've expanded our
+                corporate offices, and retail spaces. We&apos;ve expanded our
                 capabilities to include digital solutions and innovative
                 technology integration through our technical team.
               </motion.p>
@@ -484,7 +484,7 @@ export default function AboutUsPage() {
                     Founder & Creative Director
                   </p>
                   <p className="text-gray-600 italic">
-                    "Great design is intelligence made visible."
+                    &quot;Great design is intelligence made visible.&quot;
                   </p>
                 </div>
               </motion.div>
@@ -810,9 +810,9 @@ export default function AboutUsPage() {
             Ready to Transform Your Space?
           </h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">
-            Let's collaborate to create the perfect environment that reflects
-            your vision and enhances your lifestyle with both design excellence
-            and technological innovation.
+            Let&apos;s collaborate to create the perfect environment that
+            reflects your vision and enhances your lifestyle with both design
+            excellence and technological innovation.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

@@ -322,7 +322,7 @@ export default async function Home() {
                 <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                   Riz Interiors is a premium interior design studio specializing
                   in creating elegant, functional spaces that reflect our
-                  clients' unique personalities and lifestyles.
+                  clients&apos; unique personalities and lifestyles.
                 </p>
                 <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                   With years of experience in residential and commercial design,
@@ -431,8 +431,8 @@ export default async function Home() {
               What Our Clients Say
             </h2>
             <p className="text-xl text-gray-800 max-w-2xl mx-auto">
-              We take pride in exceeding our clients' expectations with every
-              project
+              We take pride in exceeding our clients&apos; expectations with
+              every project
             </p>
           </div>
 
@@ -467,7 +467,7 @@ export default async function Home() {
               >
                 {/* Quote mark */}
                 <div className="absolute top-4 right-4 text-6xl text-violet-600 font-serif">
-                  "
+                  &quot;
                 </div>
 
                 <div className="flex items-center mb-6">
@@ -520,8 +520,8 @@ export default async function Home() {
             Ready to Transform Your Space?
           </h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">
-            Let's collaborate to create the perfect environment that reflects
-            your vision and enhances your lifestyle.
+            Let&apos;s collaborate to create the perfect environment that
+            reflects your vision and enhances your lifestyle.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

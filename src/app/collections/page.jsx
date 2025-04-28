@@ -121,8 +121,9 @@ export default async function CollectionsPage() {
                 No Collections Available
               </h3>
               <p className="mt-4 text-gray-600 max-w-lg mx-auto">
-                We're currently working on curating amazing collections for you
-                to explore. Please check back soon to see our latest designs.
+                We&apos;re currently working on curating amazing collections for
+                you to explore. Please check back soon to see our latest
+                designs.
               </p>
               <Link
                 href="/"

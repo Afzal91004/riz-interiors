@@ -53,8 +53,8 @@ export default async function CollectionPage({ params }) {
               Collection Not Found
             </h1>
             <p className="mt-4 text-gray-600">
-              The collection you're looking for doesn't exist or has been
-              removed.
+              The collection you&apos;re looking for doesn&apos;t exist or has
+              been removed.
             </p>
             <Link
               href="/collections"
@@ -237,7 +237,7 @@ export default async function CollectionPage({ params }) {
                 Gallery Coming Soon
               </h3>
               <p className="mt-4 text-gray-600 max-w-lg mx-auto">
-                We're currently curating the perfect collection of interior
+                We&apos;re currently curating the perfect collection of interior
                 designs for this space. Check back soon to be inspired by our
                 latest creations.
               </p>
