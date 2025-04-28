@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
-// import Footer from "./Footer"; // You'll need to create this component separately
+import Footer from "./components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <main className={`flex-grow transition-opacity duration-500 `}>
             {children}
           </main>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </body>
     </html>
