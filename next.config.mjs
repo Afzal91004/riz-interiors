@@ -16,7 +16,11 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "riz-interiors.vercel.app/",
+        hostname: "riz-interiors.vercel.app",
+      },
+      {
+        protocol: "https",
+        hostname: "riz-interiors-backend.vercel.app",
       },
       {
         protocol: "http",
