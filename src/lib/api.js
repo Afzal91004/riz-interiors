@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL; // Make sure port matches your backend
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // Fetch all collections
 export async function getCollections() {
