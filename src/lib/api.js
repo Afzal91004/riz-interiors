@@ -1,11 +1,9 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000"; // Make sure port matches your backend
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL; // Make sure port matches your backend
 
 // Fetch all collections
 export async function getCollections() {
   try {
-    const res = await fetch(`${API_BASE_URL}/api/collections`, {
-      cache: "no-store",
-    });
+    const res = await fetch(`${API_BASE_URL}/api/collections`);
     if (!res.ok) throw new Error("Failed to fetch collections");
     const data = await res.json();
     return data.collections || [];
