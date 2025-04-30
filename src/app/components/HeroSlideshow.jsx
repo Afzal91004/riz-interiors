@@ -58,7 +58,9 @@ export default function HeroSlideshow({ images }) {
           >
             <Image
               src={src}
-              alt={`Riz Interiors Slide ${index + 1}`}
+              alt={`Riz Interiors Slide ${
+                index + 1
+              } Best Interior Designer in Prayagraj`}
               fill
               priority={index === 0}
               className="object-cover"

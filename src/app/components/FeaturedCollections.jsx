@@ -29,7 +29,7 @@ export default function FeaturedCollections({ featuredCollections }) {
               <div className="relative h-80 w-full overflow-hidden">
                 <Image
                   src={collection.image}
-                  alt={collection.name}
+                  alt={collection.name` best interior designer in Prayagraj`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"

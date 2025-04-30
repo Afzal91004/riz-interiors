@@ -64,6 +64,7 @@ export default async function Home() {
     { value: "350+", label: "Completed Projects" },
     { value: "12+", label: "Years Experience" },
     { value: "98%", label: "Client Satisfaction" },
+    { value: "100%", label: "Custom Designs" },
   ];
 
   return (
@@ -71,10 +72,8 @@ export default async function Home() {
       {/* Hero Section with Responsive Slideshow */}
       <section className="relative h-screen flex items-center justify-center">
         <HeroSlideshow images={heroImages} />
-
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40 z-5"></div>
-
         <div className="relative z-10 text-center text-white px-4 motion-safe:animate-fade-in-up">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tighter">
             <span className="block motion-safe:animate-slide-in-left">riz</span>
@@ -115,7 +114,6 @@ export default async function Home() {
             </Link>
           </div>
         </div>
-
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10 motion-safe:animate-bounce">
           <div className="p-2 bg-white/10 rounded-full backdrop-blur-sm">
@@ -135,7 +133,6 @@ export default async function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
@@ -208,7 +205,7 @@ export default async function Home() {
       {/* Stats Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-[#050a30] to-purple-900 text-white">
         <div className="container mx-auto ">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-right">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {stats.map((stat, index) => (
               <div
                 key={index}
