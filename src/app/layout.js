@@ -37,7 +37,7 @@ export const metadata = {
       "Riz Interiors | Elegant Interior Design in Prayagraj, Kanpur, Lucknow",
     description:
       "Transform your home or office with Riz Interiors. We specialize in modern and traditional interiors across major cities of Uttar Pradesh.",
-    url: "https://www.rizinteriors.com",
+    url: "https://www.rizinteriors.netlify.app",
     siteName: "Riz Interiors",
     // images: [
     //   {
@@ -51,7 +51,7 @@ export const metadata = {
     locale: "en_IN",
   },
   alternates: {
-    canonical: "https://www.rizinteriors.com",
+    canonical: "https://www.rizinteriors.netlify.app",
   },
 };
 
