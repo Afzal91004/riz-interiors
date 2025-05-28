@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  srcDir: "src", // 👈 important for Vercel to find your app inside `src/`
+
   images: {
     remotePatterns: [
       {
@@ -27,10 +32,9 @@ const nextConfig = {
         hostname: "localhost",
         port: "5000",
       },
-       {
+      {
         protocol: "https",
         hostname: "rizinteriors.netlify.app",
-
       },
     ],
   },
