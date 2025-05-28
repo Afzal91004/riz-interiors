@@ -5,6 +5,7 @@ import { getCollections, getBlogs } from "../lib/api";
 import HeroSlideshow from "./components/HeroSlideshow";
 import InstagramFeed from "./components/InstagramFeed";
 import FeaturedCollections from "./components/FeaturedCollections";
+import "./globals.css"; // Make sure path is correct
 
 export const revalidate = 3600; // Revalidate this page every 60 seconds
 
